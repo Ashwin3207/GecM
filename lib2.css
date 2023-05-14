@@ -57,3 +57,13 @@
     height: 400px;
     padding-top: 40px;
 }
+.about
+{
+    margin: 100px;
+    left:38%;
+    border:1px solid grey;
+}
+.about ul
+{
+    list-style: none;
+}
