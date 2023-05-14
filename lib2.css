@@ -44,6 +44,12 @@
     right:40px;
     position: relative;
     text-align: center;
+    padding-top:10px;
+}
+.item ul li:hover
+{
+    opacity: 0.65;
+
 }
 .item:hover > ul li
 {
@@ -114,7 +120,7 @@ padding: 7px;
 {
     list-style: none;
 }
-.container div:hover
+.container div a:hover
 {
-    opacity:0.65;
+    opacity: 0.65;
 }
