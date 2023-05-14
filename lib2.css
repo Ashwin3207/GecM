@@ -1,25 +1,46 @@
-
-.container{
-    margin: 0px;
+*
+{
+    margin:0px;
     padding: 0px;
+}
+.container{
+
     display: grid;
-    grid-template-columns: 100px 100px 100px 150px;
+    grid-template-columns: 600px 100px 100px 140px 180px;
     grid-gap:1rem;
 
     height: 30px;
     width: 100vw;
     background-color:rgb(114, 187, 236);
     justify-content:end;
-    
-   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+  
 }
 .item{
 
     width: 20px;
     height:10px ;
-    padding: 5px;
-      
+    padding: 7px;
+   
 }
+.item a{
+    border: 1px solid white;
+    padding: 10px;
+}
+.item1{
+padding: 7px;
+}
+ .container a{
+    text-decoration: none;
+    color: white;
+ }
+
+
+
+
+
 .container1{
     margin: 0px;
     padding: 0px;
