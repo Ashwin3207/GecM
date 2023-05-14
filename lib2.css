@@ -24,6 +24,32 @@
     height:10px ;
     padding: 7px;
    
+
+}
+.item ul
+{
+    list-style: none;
+    top:10px;
+    left:20px;
+    position: relative;
+    
+}
+.item ul li{
+    background-color:rgb(114, 187, 236);
+    width:150px;
+    height: 25px;
+    border: 1px solid white;
+    display:none;
+    color:antiquewhite;
+    right:40px;
+    position: relative;
+    text-align: center;
+}
+.item:hover > ul li
+{
+    display:block;
+    
+
 }
 .item a{
     border: 1px solid white;
